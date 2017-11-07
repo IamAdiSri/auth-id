@@ -1,5 +1,5 @@
 # smai-proj
-Lexical features
+## Lexical features
 
 1. avg. chars per e-mail
 2. digits to total chars. ratio
@@ -9,19 +9,22 @@ Lexical features
 6. avg. sentence length
 7. vocab richness
 
-Syntactic features
+## Syntactic features
 
 1. freq of function words
 2. freq of punctuation
 3. freq. of personal pronouns and adjective.
 4. pos tag bigrams/trigrams
 
-Structural features
+## Structural features
 
 1. avg ratio of no. of paras to length of doc
 2. avg no. of sentences per paragraph.
 3. Type of greeting.
 
-Content features:
+## Content features:
 1. 
 
+## Reference papers
+https://arxiv.org/pdf/1609.06686.pdf
+http://www.aclweb.org/anthology/E17-2106
