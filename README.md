@@ -1,4 +1,12 @@
 # smai-proj
+
+## Requirements
+1. python3
+2. numpy
+3. cPickle # use `pickle` instead as default pickle in python3 is cPickle and does not require a separate installation of the library
+4. keras
+5. tensorflow
+
 ## Lexical features
 
 1. avg. chars per e-mail
