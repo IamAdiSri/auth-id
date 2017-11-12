@@ -19,8 +19,8 @@ for c in classes:
 		f = open(direc+c+'/'+filename, 'r')
 		count = 0
 		for line in f:
-			line1 = line.strip('\n')
-			count = count + len(line1.split())
+			line = line.strip('\n')
+			count = count + len(line.split())
 		#text = f.read()
 		#count = len(text.split())
 		print c+','+filename+','+str(count)

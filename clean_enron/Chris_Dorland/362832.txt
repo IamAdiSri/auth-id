@@ -1,0 +1,2 @@
+Kathy,Could you run a report that lists all of the FX hedges in our book
+I just want to make sure we aren t missing any deals in our model.Thanx,Chris

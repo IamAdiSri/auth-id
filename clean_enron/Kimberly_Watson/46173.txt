@@ -1,0 +1,2 @@
+Lindy,We are meeting on Tues at 10:00 in 1336 to discuss how TW may handle a storage point on our system with respect to how we contract for this point (given that contracts will want to receive and deliver to this point on a firm basis) as well as how we schedule gas at this point
+Will you be able to attend and give us your advise?Many thanks, Kim

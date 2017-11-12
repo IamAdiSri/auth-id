@@ -1,0 +1,3 @@
+Great trading asset, but fixed costs are enormous
+The entire value proposition is based upon $15/Mwh spread between peak and off-peak (which is clearly there today)
+My view is this spread collapses over time due to DSM/DG/real-time pricing and true hourly price signals in pool based markets.We should look at the asset, but recognize the fixed costs are huge

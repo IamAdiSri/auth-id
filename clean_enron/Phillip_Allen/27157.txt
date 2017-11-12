@@ -1,0 +1,2 @@
+Jacques, Here is the payoff info for the unsecured note:Assuming the note is paid before the 7/20 payment is due: $36,523 + $7/day accrued interest since 6/20
+For example, if paid on 7/18 the balance would be $36,719.If the Kuo s make the payment due on 7/20, then the payoff amount would be $36,304 + $7/day accrued interest after 7/20.The amortization schedule is attached.Phillip

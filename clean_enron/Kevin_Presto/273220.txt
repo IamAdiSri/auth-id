@@ -1,0 +1,3 @@
+The options are not valued properly
+The market value is calculated based upon the value of the underlying, which grossly overstates the market value of the portfolio
+The restricted stock (basis of $0) is valued OK, but the options are not.In addition, the year restricted stock and option grant is not yet in the portfolio

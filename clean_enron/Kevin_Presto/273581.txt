@@ -1,0 +1,3 @@
+I need the reg gen postion, transmission position, distribution position, and ancillary position
+If you have to bundle the T&D and ancillary into one position, that is fine
+However, I want the pricing assumptions for the individual pieces and our best guess for the MWh position.Thanks

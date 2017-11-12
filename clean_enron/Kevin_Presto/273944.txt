@@ -1,0 +1,4 @@
+Please complete Hayden s form for your respective regions
+Keep in mind that this could act as potential position limit set forth by UBS so be careful in completing this form
+In addition, UBS has a liquidity reserve used to adjust curves when marking P&L
+The "liquidity reserve" accounts for the fact you can t liquidate at the mid and with big positions you probably can t even liquidate at the bid (offer).Thanks

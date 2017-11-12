@@ -1,0 +1,5 @@
+Obviously, we will not deliver (or receive if we are long) if the transaction would result in negative cash flow for the estate on a "net counterparty" basis
+Therefore, FE and TXU obligations would not be met for the 1st week of January because they result in negative cash flow
+Cory,Please make sure going forward that we only include positive cash flow counterparties in the weekly projections
+Please exclude the TXU and FE positions from the net position report as well
+We will likely begin filling the non-pool positions starting next Wednesday

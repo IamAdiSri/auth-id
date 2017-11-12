@@ -1,0 +1,2 @@
+The ESCA energy management system (EMS) in an industry standard software package to provide control area services and energy accounting in compliance with NERC standards
+We used the software and hardware for remotely controlling/operating/dispatching our peaker plants and also used the software in 3rd party "outsourcing/services" deals in ERCOT and SPP

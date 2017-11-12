@@ -1,0 +1,4 @@
+Felicia,In general, you are correct that the salary basis test must be met before someone can be classified as exempt
+However, because there are certain exceptions to the salary basis test (for example, licensed attorneys do not have to meet that test), it depends on what the employees are doing as to whether this situation creates a problem under the FLSA.My recommendation would be to obtain information about the jobs performed by these 29 employees so that we can determine whether there is an issue
+If they do not fit within one of the exceptions, we probably should have them affirmatively report time so that hours worked over 40 can be paid at the overtime rate
+You would use the hourly rate they are paid to determine the overtime rate

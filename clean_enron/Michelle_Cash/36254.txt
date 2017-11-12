@@ -1,0 +1,18 @@
+Hi, Charla,I have reviewed the additional fields you described
+Most of them look fine with me
+I do have some concerns with the questions about birthplace, citizenship, personal travel, and reason for return from prior assignment
+The questions about birthplace/citizenship are the most risky
+As I have discussed with others, such questions could create issues of national origin discrimination, particularly if one s birthplace country is not evident from any other source
+It also could create a privacy issue if we are asking questions that are not job-related and consistent with business necessity
+What is the purpose of this inquiry?
+Are we trying to determine whether a person is eligible to work in a particular country?
+If so, it appears that birthplace and citizenship are not the answers that we need
+We already have a field on where a person is eligible to work, which would cover the situation where a person has citizenship in one country, but is on a work visa to another
+Any other information may not be necessary.The question about reasons for returning from leave also could unearth information that we really don t want to keep on a system
+For example, if a person left because of health reasons, or the birth of a child
+it really is not a job-related issue
+What is the purpose of this question?
+Is there a less intrusive way to ask it?
+Finally, the question about countries visited for personal reasons also is asking information that is not job-related
+What is the purpose of that inquiry?
+Is there another way to gather that information?Let me stress that none of these inquiries is unlawful -- some of them may be unwise for the reasons I cited above

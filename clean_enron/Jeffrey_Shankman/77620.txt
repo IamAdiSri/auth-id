@@ -1,0 +1,7 @@
+John Nowlan is concerned that this var number isn t right
+According to john, the group significantly reduced postions (on the whole)
+What about the forward forward vol?
+Have we looked at that?
+My instinct is that something is not accurate with this var number today if you look at the resulting position as of Friday evening s postion report
+I d like someone to be dedicated to the crude and products group full time who can help us with "what if" scenarios throughout the trading day, and who can work with Pavel on the crude desk on the forward forward vol issue
+Also, I d like to isolate first gas holdings since that is taking up approx 2 million in var each day
