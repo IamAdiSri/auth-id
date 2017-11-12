@@ -17,7 +17,11 @@ for c in classes:
 	#count = 0
 	for filename in listing:
 		f = open(direc+c+'/'+filename, 'r')
-		text = f.read()
-		count = len(text.split())
+		count = 0
+		for line in f:
+			line = line.strip('\n')
+			count = count + len(line.split())
+		#text = f.read()
+		#count = len(text.split())
 		print c+','+filename+','+str(count)
 		f.close()
