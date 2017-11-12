@@ -1,1 +1,0 @@
-The LD calc should be the hourly index and we need to eliminate the Peak Day designation damages

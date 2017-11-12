@@ -1,4 +1,0 @@
-Open the "utility" spreadsheet and try to complete the analysis of whether it is better to be a small commercial or a medium commercial (LP-1).You will need to get the usage for that meter for the last 12 months
-If we have one year of data, we can tell which will be cheaper
-Use the rates described in the spreadsheet
-This is a great chance for you to practice excel

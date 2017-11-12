@@ -1,3 +1,0 @@
-As long as Dave and/or you are signing off on the EOL packages, I don t have any problem with this
-As to non-EOL deals, we may also want to eliminate the requirement that all Demarc deals need such a high approval level
-I don t think there is anything uniquely risky about Demarc as long as we have our capacity posting squared away

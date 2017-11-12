@@ -1,2 +1,0 @@
-I am trying to customize the view and I keep getting an error
-Can you check into this problem.I want the view for both portfolios to be: Open Date Quantity Purchase Price Last Price Cost Basis Market Value Gain/Loss Gain/Loss%Can you make this the default view setting.thanks

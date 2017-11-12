@@ -1,4 +1,0 @@
-Jay,I need to compile a report that shows transaction volume by basis location(Basis Swaps) and volume by location for Phys Forwards as well as Finc Swaps for Power.We have given them a list of the locations at which we like to make markets
-They want to see historical volumes at those location to judge the liquidity at each location
-You can reach me at 713-515-3949 or x37041
-Thanks for your help.Phillip

@@ -1,2 +1,0 @@
-The easiest way would be to delay the closing until January
-Is there a reason we can t do that?

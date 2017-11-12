@@ -1,2 +1,0 @@
-Looks like Enpower is "on the side of the road" with respect to capturing and valuing retail deals
-As we discussed in yesterday s meeting, Plan B is a more robust spreadsheet that unbundles the components and values them separately and creates postions by risk component.I know this is easier said than done, but we need a tactical solution that gives the group confidence that value and positions are correct, rather than a bundled black box batch value with hard coded assumptions

@@ -1,7 +1,0 @@
-FYI
-Just to keep ya ll in the loop
-This fix should be ready for test on Mondayand migrated Monday night for Tuesday s use
-This fix will be very beneficialin minimizing Shipper imbalances on NNG
-Terry and Gerry will work with the teamsto be sure everyone is up to speed on the change
-If you have any questions while Iam out next week, please check with Terry Kowalke or Mike Bodnar
-Thanks

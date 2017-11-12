@@ -1,2 +1,0 @@
-Lindy,Since the tolerance range is currently on the whole contract on a monthly basis, can we force the daily balancing issue?
-Or at least pull the monthly tolerance level down to 1-2%?Thanks for the note

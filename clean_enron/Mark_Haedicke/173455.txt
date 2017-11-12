@@ -1,3 +1,0 @@
-It seems to me that our standard language should prohibit service providers from working on any similar project for a competitor or disclosing in any way that work was done for Enron
-Also, we may want to specify liquidated damages for violation of this covenant
-Any objections to this?Mark Haedicke

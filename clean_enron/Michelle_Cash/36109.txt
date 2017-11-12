@@ -1,2 +1,0 @@
-t: Please print for me
-Thanks a lot!

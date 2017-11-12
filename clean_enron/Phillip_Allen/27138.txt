@@ -1,4 +1,0 @@
-Tim,Is something wrong with the database?
-It appears that the iso load, hour ahead intertie data, and the northwest hydro info has not been updated since 7/25
-Is this just a problem on our end?
-Let me know when you get a chance.Thanks,Phillip
