@@ -1,4 +1,0 @@
-The way I understand the suggestion, we will always be able to change a slate if we need to
-This puts more of the responsibility on us to keep the names updated if any changes need to be made
-I guess I have no problem with that as long as we can develop a systematic way of handling this and then be disciplined about following that system
-Bill--I suspect you will end up being our "system" so are you up to it?

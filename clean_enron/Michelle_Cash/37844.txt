@@ -1,5 +1,0 @@
-Good morning.David has asked me to summarize a request for data relating to employment agreements, as the company needs to decide whether it will reject or accept those agreements in the bankrupt entities
-We also need to decide how to handle agreements in non-bankrupt entities
-We will need summaries of all employment agreements in the entire company, broken down by business unit, group, name of employee, term/duration of agreement, and future obligations under the agreement.We will need those segregated as follows:Employees involuntarily terminated in the last 2 weeks.Employees involved in Newco/Trading operations.EEL employeesEmployees remaining in the Enron estate.Could you arrange for this work to be done (preferably by tomorrow)?
-I would suggest that someone develop a single format that works for this data and then share it with the others.Thanks!
-!Michelle

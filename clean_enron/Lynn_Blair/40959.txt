@@ -1,3 +1,0 @@
-Let s discuss again on Monday if we need to relook at hard coding the allocation based on discussions with Kent and Frank
-Thanks
-Lynn

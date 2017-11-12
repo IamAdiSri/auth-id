@@ -1,1 +1,0 @@
-We need all historical data preserved in all markets (price, vol, trades by counterparty, volume by counterparty, broker vs. EOL, broker prices, EOL prices, etc.)

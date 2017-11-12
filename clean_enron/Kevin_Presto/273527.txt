@@ -1,2 +1,0 @@
-Right now, all of our trades are fixed price at a specific hub
-We will be moving to basis markets in some locations in the very near future

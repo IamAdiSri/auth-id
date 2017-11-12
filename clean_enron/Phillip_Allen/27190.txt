@@ -1,5 +1,0 @@
-Improving the PRC process
-Customizing it more for the trading group
-Figure out some creative ways to compare trading performance
-Add profitability and consistency other other trading measures
-Also incorporate a system of handicapping performance of traders in different markets

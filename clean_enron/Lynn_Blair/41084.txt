@@ -1,4 +1,0 @@
-Vernon, the way the accounting system works today: Dec. 1 - 20 flow will be attributed to the contract that nominated at that point for the 21 through 31
-This automaticall happens if there is no OBA at the point and if there is only one contract nominated at the point
-If we do not want that to happen, we need to discuss our options
-Thanks

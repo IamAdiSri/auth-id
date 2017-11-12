@@ -1,1 +1,0 @@
-Add $0.50/Mwh to the off-peak component of the 7x24 price and everything else looks fine

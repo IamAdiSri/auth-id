@@ -1,2 +1,0 @@
-Please ensure that real-time prices for ERCOT, PJM, NY, and NEPOOL are added to the cube database
-I have been analyzing the data today and the real-time clearing prices are not there.Thanks.Kevin PrestoEast Power TradingPhone: 713-853-5035Cell: 713-854-3923Fax: 713-646-8272

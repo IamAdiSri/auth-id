@@ -1,4 +1,0 @@
-I don t think having an intrastate in the ETS family would be a problem
-We could even run it with a merchant business if we firewalled the merchant entity off from the ETS pipelines
-Keep me in the loop and get MKM s group in at the appropriate time (far enough in advance of us submitting a bid that they can opine on the valuation)
-Thanks

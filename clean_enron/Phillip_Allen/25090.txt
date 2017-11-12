@@ -1,2 +1,0 @@
-Lucy,Please open this excel file and input the rents and names due for this week
-Then email the file back
