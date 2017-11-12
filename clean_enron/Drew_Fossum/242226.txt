@@ -1,5 +1,0 @@
-I ve redlined the outline to address what I believe is the most important risk you guys will face out there: the risk that FERC will listen to your presentation and conclude that the embedded optionality that some pipelines are currently offering in transport contracts is a negotiated term and condition and therefore must be stopped
-I think we need to tailor the presentation and filing to minimize the chance that FERC will take away flexibility we think we now have (i.e., the flexibility to embed shipper puts in transport contracts)
-Even if the TW approach on unbundled options goes nowhere, several of the strategies we may want to implement next year depend on continued ability to sell embedded options
-Susan, Shelley,a nd MKM, I still think it is a good idea to push this proposal, but am concerned that FERC might squirrel and go the opposite direction we are trying to push them
-Your thoughts?

@@ -1,4 +1,0 @@
-I m OK on this, with one small change
-Please add "/MMBtu" after "$.08" in paragraph 3
-I just want it clearer that the 8 cent rate is per unit as utilized
-Thanks

@@ -1,8 +1,0 @@
-Jeff,JP Morgan is comparing a file of calculated daily curve shift to actual P&L
-Gas P&L for 2001 was 1.2 Billion but the theoretical curve shift was -13 million
-This is from a file assembled by David Port which is attached
-The biggest difference is 9/14 ($500 million)
-This is probably money coming out of reserves
-Besides that day there are many smaller differences
-Can you help me by pulling the P&L packets from some of the larger days?
-The answer might be that the file from RAC is bogus

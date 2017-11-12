@@ -1,2 +1,0 @@
-Rex: We are trying to make this as limited as possible
-Can you define specifically what requires an exception?

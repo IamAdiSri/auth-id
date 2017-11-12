@@ -1,3 +1,0 @@
-I would like to be able to select days, months, years, etc
-for historical liquidation
-Somehow, we need to make the cubes or Metastock more user friendly so the traders will actually use them.I have tried to use the cubes and, although the data is extremely powerful, scrolling through all the years and months is quite cumbersome and drilling down is a pain.Can we somehow improve the user friendliness of these tools.Thanks

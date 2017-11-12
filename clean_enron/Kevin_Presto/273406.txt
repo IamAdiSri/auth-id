@@ -1,3 +1,0 @@
-I think I could make a case for decreasing ECP, because some of the uplift actually sneaks into the ECP (must run units for 6 hours etc.)
-I would argue that the pool will dispatch more competitively when generators know that a peaker can run for 30 minutes at $100/Mwh
-This forces baseload units to offer very competitive pricing for all hours to ensure dispatch.We have seen what the additional peakers in the East does to volatility and energy clearing prices, in general.What are your thoughts?

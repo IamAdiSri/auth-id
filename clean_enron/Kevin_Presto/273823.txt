@@ -1,3 +1,0 @@
-I agree with this approach and I m fine with this allocation
-My objective is to get everything as accurate as possible so the proper price signal is being sent to retail and wholesale origination
-I caught the scalar issue when we were looking at 4 hour tolls vs. 8 hour tolls vs. 16 hour and I could tell there was a disconnect.thanks

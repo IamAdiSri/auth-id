@@ -1,2 +1,0 @@
-As I told John this morning, we have similar issues with Var in the East
-The correlations between gas & power for the entire curve are based on the front month and the correlations between regions are also based on the front month.I have requested changes to the Var calc several months back and have been assured it will be completed by the research group soon

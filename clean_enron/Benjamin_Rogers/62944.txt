@@ -1,2 +1,0 @@
-Here is the VOM and FOM for the Entergy model
-Yvan Chaxel is using these same numbers in his spread option value model.VOM - $0.89FOM (Annual $ s) - $ 915,000/yearI am still getting the model together.Ben3-7998
