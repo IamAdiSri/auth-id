@@ -1,0 +1,1 @@
+We need the hourly option to allow for non-GTC sources, but we will deliver into-GTC border hourly

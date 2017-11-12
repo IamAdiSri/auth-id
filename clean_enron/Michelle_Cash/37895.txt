@@ -1,0 +1,4 @@
+We need the following data asap:1
+Number of total employees at all Enron entities broken down by domestic and US2
+Breakdown of those domestic employees by whether they are hourly or salaried3
+Amount of accrued, unpaid vacation balance.Michelle

@@ -18,10 +18,14 @@ for c in classes:
 	#count = 0
 	for filename in listing:
 		f = open(direc+c+'/'+filename, 'r')
-		text = f.read()
+		count = 0
+		for line in f:
+			line = line.strip('\n')
+			count = count + len(line)
+		#text = f.read()
 		#list1 = sent_tokenize(text)
 		#numsent = len(list1)
-		count = len(text)
+		#count = len(text)
 		#count = 0
 		#for item in list1:
 		#	count = count + len(item.split())

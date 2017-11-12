@@ -1,0 +1,4 @@
+Torrey/Mark,Below is the error message Chris gets when logging in to EOL
+If we hit Yes it keeps coming back with the same error
+(Sometimes it works though... you figure it out)
+If you hit No, the browser session freezes up.We have done the following:Uninstalled/Reinstalled ShockwaveReinstalled browserPlease look at this ASAP since he needs to be able to see the customer screen.Thanks,Attilax6912

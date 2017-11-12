@@ -1,0 +1,2 @@
+The only issue I have is everytime I login I have some Windows Installer program I have to kill and it takes me an extra 2-3 minutes to keep closing files before I can get into my desktop.I don t know what caused this, but I am assuming some file you installed is still trying to run
+In addition, the dial-up through Citrix is very very slow

@@ -1,0 +1,8 @@
+I agree with your concern but I ve gotten comfortable that the pleading does a good job of finessing the issue
+Technically, you are right and PNM s service is neither "firm" or "interruptible."
+It is my understanding that PNM assigns priority based on a number of factors including whether the customer is a core customer or not, et cet
+I think that PNM is capable of determining on a contract by contract basis whether the capacity will be firm, even though the rate schedule may not say "firm."
+Explaining all that complexity would make it unlikely that FERC would approve the rehearing
+Nevertheless, I believe its accurate to say that we will only repackage as firm service the capacity that we buy from PNM and that they tell us is "firm."
+I think the draft does that, without going throught the unhelpful detail on how PNM handles its own priority system
+If I misunderstand the facts or if anyone disagrees with this approach, lets talk about it

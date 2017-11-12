@@ -1,0 +1,1 @@
+Do I need to cross reference the deals in my model to the deals in the system or did you already do that?Chris

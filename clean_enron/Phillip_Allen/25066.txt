@@ -1,0 +1,1 @@
+can you build something to look at historical prices from where we saved curves each night.Here is an example that pulls socal only.Improvements could include a drop down menu to choose any curve and a choice of index,gd, or our curves

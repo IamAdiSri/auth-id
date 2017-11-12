@@ -1,0 +1,23 @@
+Attached is my redline of your Sat
+draft
+In addition to the revisions in the doc, I have a few questions and concerns:1
+On the segmenting section, I think it is a fine legal argument, but it lacks something
+What is our "or else" position?
+Does the Global Settlement give us any FERC-out rights or colorable argument that the entire deal should be unwound if FERC screws up the segmenting issue?
+I m not suggesting that we should trigger a FERC out if we have one, but if we arguably do, we should consider threatening to use it
+I m afraid we come across as whiny and FERC s position will likely be "so what, what are you going to do about it?"
+If we have no arguable "FERC-out" and the only "or else" we have is that we ll take them to Court and force them to adhere to the original deal, I m for leaving the draft as-is
+We can make our appeal threat more direct on rehearing if they hose us in the initial order.2
+On the arbitrage argument, I ve taken out any reference to an example and softened the verbiage a bit
+I want to leave in the references to the arbitrage issue, however, because FERC understands the problem and believes it is widespread
+We don t need to prove exactly how big a problem it is on our system (although it would have been very effective if we had clear facts).3
+Do any of the OBA changes arguably conflict with the Global Settlement?
+If so, we d better be prepared to eat our words from the segmenting section
+Covering ourselves in the sanctity of that Settlement in section 1 and then fiddling around with it in section 2 won t play well
+It is my understanding that the OBA system on TW was not part of the turnback resolution deal so I hope this won t be a problem
+4
+On FN 20, I d suggest we use Vig s data and chart for May of 2000
+The arb opportunity is huge and clear
+We reference in the FN that we use all six of the Gas Daily price points, and I think Vig used just 3
+What s the right answer?
+Good work everyone--please give it one more careful look on Monday AM and it should be good to go
