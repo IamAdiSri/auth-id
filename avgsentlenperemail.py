@@ -1,8 +1,9 @@
 #Command to run on terminal in the smai_proj folder:
-#python wordsperemail.py ./clean_enron/ > wordsperemail.txt
+#python avgsentlenperemail.py ./clean_enron/ > avgsentlenperemail.txt
 
 import sys
 import os
+from nltk.tokenize import sent_tokenize
 
 classes = ['Benjamin_Rogers','Chris_Dorland','Drew_Fossum','Jeffrey_Shankman','Kevin_Presto','Kimberly_Watson','Lynn_Blair','Mark_Haedicke','Michelle_Cash', 'Phillip_Allen']
 #classes = ['Benjamin_Rogers']
@@ -18,8 +19,14 @@ for c in classes:
 	for filename in listing:
 		f = open(direc+c+'/'+filename, 'r')
 		text = f.read()
+		list1 = sent_tokenize(text)
+		numsent = len(list1)
 		count = len(text.split())
-		print c+','+filename+','+str(count)
+		#count = 0
+		#for item in list1:
+		#	count = count + len(item.split())
+		avgsentlen = count/float(numsent)
+		print c+','+filename+','+str(avgsentlen)
 		f.close()
 	#avgword = count/float(numemail)
 	#print c,avgword
