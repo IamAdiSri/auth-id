@@ -21,5 +21,3 @@ for c in classes:
 		count = len(text.split())
 		print c+','+filename+','+str(count)
 		f.close()
-	#avgword = count/float(numemail)
-	#print c,avgword
