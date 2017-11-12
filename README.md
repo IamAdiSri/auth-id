@@ -25,7 +25,7 @@
 
 ## Structural features
 
-1. ratio of no. of paras to length of email
+1. ratio of no. of paras to length of email in words.
 2. avg no. of sentences per paragraph.
 
 ## Content features:
