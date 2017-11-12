@@ -1,0 +1,2 @@
+ICAP exposure needs to be capped at the default price (currently 8.75/kW/mo)
+Because Zone J is deficient capacity, the market is actually trading higher than the default rate.In addition, we need to scrub the ancillary components

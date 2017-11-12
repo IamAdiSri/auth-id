@@ -1,0 +1,2 @@
+The way you set up the portfolio is very confusing
+Why not have two portfolios:1) Enron - Restricted (all stock with a $0 basis in this portfolio - should be $400k+)2) Enron - Options (all ENE stock options - gain/loss column will show intrinsic value)Thanks

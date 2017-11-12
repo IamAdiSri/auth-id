@@ -1,0 +1,2 @@
+I know, but that doesn t change the fact that we should articulate the standards that we are using -- I know that they use some criteria that are based on solid business reasons, so let s capture them!
+That way, we at least can explain why we did things

@@ -1,0 +1,5 @@
+Sue, we have looked at an automated way to take care of this issue
+So far we have not found an exceptable change
+It is a timing issue with true ups from the previous day which are not completed before the current day calcuations are done
+It is an item we are manually monitoring today, but we are continuing to look for a better method
+Thanks

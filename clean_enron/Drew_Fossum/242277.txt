@@ -1,0 +1,6 @@
+Interesting
+I remember vaguely that we had some concern with how VAR was calculated
+I recall that Dave Neubauer didn t think that we were doing it right for TW
+Do you remember this issue?
+If so, does this change address the same issue?
+Also, I ll line up a meeting today or tomorrow on the TW options filing in general, and we can discuss the customer meeting and also touch on this internal controls issue

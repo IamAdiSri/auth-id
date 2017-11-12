@@ -1,0 +1,2 @@
+Heather,This is exactly what we need
+Would it possible to add the prior day for each of the dates below to the pivot table

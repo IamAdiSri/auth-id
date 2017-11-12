@@ -1,0 +1,2 @@
+The 2 weeks is the amount of years of service, or the amount of 10K increments in salary
+The 4 weeks is a premium on top of that amount

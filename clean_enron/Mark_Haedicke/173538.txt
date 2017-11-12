@@ -1,0 +1,3 @@
+That is a very interesting question
+I think we would eventually want to include derivatives in the cross default trigger because of their significance
+However, since we often have the far larger derivative position, it would seem at least now, this would more often work against us.Mark Haedicke

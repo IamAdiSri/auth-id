@@ -1,0 +1,3 @@
+The hourly index is a must for me (the day-ahead index is unhedgable for us and we would give them free money for the next 10 years)
+It is important to understand that under the new proposed structure, VEPCO will call on this energy many more days than they do now and it is very important that we create an index that we can hedge
+I will not due this deal based on a day-ahead index - it must be hourly at the interface we defined.Please clarify your call option vs. firm delivery comment
