@@ -9,17 +9,17 @@
 
 ## Lexical features
 
-1. chars per e-mail
+1. chars per e-mail (Done)
 2. digits to total chars. ratio
-3. ratio of spaces to total chars. | avg length of word
+3. ratio of spaces to total chars. | avg length of word (Done)
 4. normalized freq. of special characters(commas and semi-colons)
-5. words per email
-6. avg. sentence length per email
-7. unique words/total words per email
+5. words per email (Done)
+6. avg. sentence length per email (Done)
+7. unique words/total words per email (Done)
 
 ## Syntactic features
 
-1. freq of function words
+1. freq of function words (Done)
 2. freq of punctuation
 3. freq. of personal pronouns and adjective.
 
