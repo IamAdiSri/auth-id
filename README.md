@@ -21,7 +21,7 @@
 
 1. freq of function words (Done)
 2. freq of punctuation
-3. freq. of personal pronouns and adjective.
+3. freq. of personal pronouns and adjective. (Done)
 
 ## Structural features
 
