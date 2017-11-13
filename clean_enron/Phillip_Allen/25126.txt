@@ -1,0 +1,3 @@
+9/8 9/7 diffSocal 36,600 37,200 -600NWPL -51,000 -51,250 250San Juan -32,500 -32,000 -500The reason the benchmark report shows net selling San Juan is that the transport positions were rolled in on 9/8
+This added 800 shorts to San Juan and 200 longs to Socal
+Before this adjustment we bought 300 San Juan and sold 800 Socal

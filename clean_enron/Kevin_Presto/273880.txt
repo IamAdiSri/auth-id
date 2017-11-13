@@ -1,0 +1,4 @@
+Please begin scrubbing the 02 and 03 new gen book again given the current situation in the energy market
+I would like a new forecast in 30 days if possible.In addition, I would like begin running the unit commitment model (dispatch) and "knock" the cob webs off everyone
+Let s plan on having a meeting to go over what the new daily reports were going to look like - wasn t Gus working on this?
+What is the status of the transmission modeling?Can we integrate the system dispatch and LMP simulation models?Kevin PrestoVice President, East Power TradingPhone: 713-853-5035Cell: 713-854-3923Fax: 713-646-8272

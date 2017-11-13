@@ -1,0 +1,7 @@
+Kirk,I would modify this document slightly
+The first section is titled "Introduction to Risk Management" and the second section is "Hedging Instruments/Risk Management Products"
+However, many of the bullet points in the first section are describing hedging instruments that belong in second section
+I would limit the introduction to types of risk, identifying risk, and examples when risks are not hedged
+Then the second section should contain all the details of hedging tools
+Definitions of derivatives and how they can be used to manage the risk in the first section would be in this section
+The third section would include the roles and accounting basics

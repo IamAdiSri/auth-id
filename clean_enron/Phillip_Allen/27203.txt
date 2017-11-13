@@ -1,0 +1,2 @@
+Is there any chance that the request to gather data on financial trades is implemented?
+Our understanding was that the commission had no jurisdiction over financial markets

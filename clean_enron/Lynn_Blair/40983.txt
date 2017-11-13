@@ -1,0 +1,19 @@
+Greg, following are the questions you asked and my answers
+Please give me a call if you have any questions
+(713-853-7637)
+1
+Number 4 is still a little fuzzy
+Does Demarc Deferred get allocated during the same cycles as Demarc?
+Answer: Yes 2
+Seems unlikely since Demarc Deferred is a storage point and storage is allocated at a different time?
+Answer: A transportation delivery directly to Demarc Deferred is a part of the Demarc allocation
+When NNG looks at a storage allocation, we review all the injections (or withdrawals) at the storage point
+The two referenced allocations are done seperately, but during the same cycle
+3
+If we were nominating our Firm from Beatrice to Demarc Deferred where would our customers pull from?
+Answer: Customers can pick up gas at Demarc Deferred 4
+The storage that is offered by NNG s park and ride is at what location?
+Demarc or Demarc Deferred?
+Answer: Demarc Deferred Hopefully this helped
+Thanks
+Lynn

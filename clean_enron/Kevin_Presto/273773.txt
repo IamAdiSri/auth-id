@@ -1,0 +1,2 @@
+I did not realize we were going to reserve on spreads which create zero net position and almost zero credit risk
+The new forward correlations are 90+% per the var model and it looks like your credit model is still using the old correlations

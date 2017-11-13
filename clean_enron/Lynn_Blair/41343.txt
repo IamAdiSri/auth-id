@@ -1,0 +1,3 @@
+Shelley, the DCC (downstream capacity constraint) code was to acknowledge that the downstream is the constraint vs our pipeline being the constraint
+We are working with Tammy and Donna to come up with existing codes to use for Needles and Nigas
+Thanks
