@@ -1,1 +1,0 @@
-Scott,When checking my FX new deals please make sure the following are entered in my model correctly:Settlement DateFX RateDollar amount (All deals are entered from a US dollar perspective)Direction (buy/sell)Thanx,Chris

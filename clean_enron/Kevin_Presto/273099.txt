@@ -1,5 +1,0 @@
-Very efficient CC gas units in Entergy and ERCOT are setting price
-Midwest and Plains has gas setting price 4-6 hours per day and coal the remaining 10 hours
-The NE markets (NY and NEPOOL) are the only markets with 10,000 HR gas units setting price across the entire peak
-Keep in mind that current temps are truly "no load" temps for East power (no heating or cooling demand)
-The addition of new combined cycle units in our market have been destructive to forward heat rates

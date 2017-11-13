@@ -1,7 +1,0 @@
-X-FileName: chris dorland 6-26-02.PSTHi everyone!Once again I find myself being tasked by Geof Storey
-Houston has requested that we make lists of all applications that we use and also that we consolidate all of the files (models and data) that are critical to our business (I don t think MP3 s count) into one directory on the network
-This is so that these items can be included in the proposed deal with newco
-The Calgary Trading group has set up a directory on I:/trading/newco and I think if each group did the same that would be great
-Each group should probably have one person in charge of the directory so there isn t any overlap
-Call me with any ?
-s/Thanx Chris

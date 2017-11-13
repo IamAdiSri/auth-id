@@ -1,5 +1,0 @@
-To synthesize what I m hearing from you and MKM (and Mr. Ni), our story is that we will post for sale an option with a specific MDQ, type (i.e., European option or American or whatever), flow period, and points
-For example, we d post a European call on 10,000/d of Nov. 01--March 02 Permian to Topock firm capacity with an exercise date of Jan 1, 2001. the customer would bid an option price and a transport rate
-We d look at both components under a publicly posted evaluation method to decide who wins
-I.e., we may post a method saying the winner is the one who pays the highest option fee so long as the transport rate bid is above "x"
-Seems pretty straightforward, and we ought to be able to clarify this adequately in our answer to protests

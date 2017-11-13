@@ -1,4 +1,0 @@
-Basically, having chillers in the project (running at full load) will increase the Heat Rate by approximately 50 degrees (ie
-if HR is 10,465 w/o chillers to 10,409 w chillers)
-Let me know if you have any questions
-ThanksBen

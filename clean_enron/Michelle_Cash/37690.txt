@@ -1,8 +1,0 @@
-I think this looks good
-For simplicity, I would use the ethnic codes we have in datamart/sap rather than creating new ones
-That makes it easier to populate
-One other field to add would be visa status
-As with the other documents, I believe that the population of these documents can be done now, with just the blank for "yes" or "no" for layoff waiting for the rest of the process
-You probably will have to run these by the generalist, Valeria or someone in ER team, and the attorneys for the special risk factors column
-Be sure and mark this document as privileged and confidential, prepared at the direction of counsel, so that we can protect the privilege of this document if necessary
-Thanks

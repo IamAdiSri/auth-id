@@ -1,2 +1,0 @@
-As I discussed with Joe Deffner, the Duke transaction we recently completed (loan in a commodity deal), we were unable to get the "exception language" for collateral
-We did the transaction at LIBOR - 10bp and even when we add 65-75 bp for the cost of an LC, the transaction still provided a competitive source of cash.The confirms we sent incorrectly placed the "exception language" and I am correcting that today

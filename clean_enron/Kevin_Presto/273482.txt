@@ -1,6 +1,0 @@
-We would prefer physical rights that we can take day-ahead and/or real-time (5 minutes ahead, if possible)
-Rather than an obligation (like FTR s), we prefer an option (spread on pricing that can only be positive when exercised)
-I would want to condition the transaction on having one RTO in the NE with LMP pricing in effect for the entirie NE market on or before 1/1/2003
-Assuming we get over those hurdles, this would likely be viewed as a capital project internally (fixed cost structure), therefore, we need to earn a minimum of 25% expected return (after credit)
-Obviously, there is a huge unknown on the CT vs. Long Island forward curve with the changing market conditions
-This makes pricing this deal extremely difficult, particulary with the returns we would need to show

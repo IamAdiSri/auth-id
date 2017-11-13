@@ -1,3 +1,0 @@
-Why not use the actual correlations we have observed over the past 18 months
-Simply calculate forward gas price movement to forward power price movement (Bal 01, 02, 03, etc
-)on a curve by curve basis, and you will find gas/power correlations on a forward basis are very high (80+%), at least in the Eastern markets

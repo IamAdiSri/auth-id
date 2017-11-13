@@ -1,3 +1,0 @@
-Based on what Fletch and Doug are doing, I would increase your # s significantly
-Your liquidity data is very conservative compared to Fletch and Doug
-Your forward volumes are approx

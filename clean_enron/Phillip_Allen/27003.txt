@@ -1,6 +1,0 @@
-Renee,Thank you for digging in to the issue of Deferred Phantom Stock Units
-It is clear that the payment will be made in shares
-However, I still don t understand which date will be used to determine the value and calculate how many shares
-The plan document under VII
-Amount of Benefit Payments reads "The value of the shares, and resulting payment amount will be based on the closing price of Enron Corp. common stock on the January 1 before the date of payment, and such payment shall be made in shares of Enron Corp. common stock."
-Can you help me interpret this statement and work through the numbers on my account.Thank you,Phillip Allen
