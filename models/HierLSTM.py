@@ -20,12 +20,11 @@ from keras.models import Model
 
 from keras import backend as K
 from keras.engine.topology import Layer, InputSpec
-#from keras import initializations
 
-MAX_SENT_LENGTH = 100
-MAX_SENTS = 30
-EMBEDDING_DIM = 100
-VALIDATION_SPLIT = 0.2
+max_sen_len = 100
+max_sents = 30
+emb_dim = 100
+val_split = 0.2
 
 lines = []
 labels = []
@@ -57,15 +56,15 @@ for author_dir in os.listdir('clean_enron'):
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(texts)
 
-data = np.zeros((len(texts), MAX_SENTS, MAX_SENT_LENGTH), dtype='int32')
+data = np.zeros((len(texts), max_sents, max_sen_len), dtype='int32')
 
 for i, sentences in enumerate(lines):
     for j, sent in enumerate(sentences):
-        if j< MAX_SENTS:
+        if j< max_sents:
             wordTokens = text_to_word_sequence(sent)
             k = 0
             for _, word in enumerate(wordTokens):
-                if k < MAX_SENT_LENGTH:
+                if k < max_sen_len:
                     data[i, j, k] = tokenizer.word_index[word]
                     k = k + 1                    
                     
@@ -76,7 +75,7 @@ indices = np.arange(data.shape[0])
 np.random.shuffle(indices)
 data = data[indices]
 labels = labels[indices]
-nb_validation_samples = int(VALIDATION_SPLIT * data.shape[0])
+nb_validation_samples = int(val_split * data.shape[0])
 
 x_train = data[:-nb_validation_samples]
 y_train = labels[:-nb_validation_samples]
@@ -91,25 +90,24 @@ with open('glove.6B.100d.txt') as f:
         coefs = np.asarray(values[1:], dtype='float32')
         embeddings_index[word] = coefs
 
-embedding_matrix = np.random.random((len(word_index) + 1, EMBEDDING_DIM))
+embedding_matrix = np.random.random((len(word_index) + 1, emb_dim))
 for word, i in word_index.items():
     embedding_vector = embeddings_index.get(word)
     if embedding_vector is not None:
-        # words not found in embedding index will be all-zeros.
         embedding_matrix[i] = embedding_vector
         
 embedding_layer = Embedding(len(word_index) + 1,
-                            EMBEDDING_DIM,
+                            emb_dim,
                             weights=[embedding_matrix],
-                            input_length=MAX_SENT_LENGTH,
+                            input_length=max_sen_len,
                             trainable=True)
 
-sentence_input = Input(shape=(MAX_SENT_LENGTH,), dtype='int32')
+sentence_input = Input(shape=(max_sen_len,), dtype='int32')
 embedded_sequences = embedding_layer(sentence_input)
 l_lstm = Bidirectional(LSTM(100))(embedded_sequences)
 sentEncoder = Model(sentence_input, l_lstm)
 
-email_input = Input(shape=(MAX_SENTS,MAX_SENT_LENGTH), dtype='int32')
+email_input = Input(shape=(max_sents,max_sen_len), dtype='int32')
 email_encoder = TimeDistributed(sentEncoder)(email_input)
 l_lstm_sent = Bidirectional(LSTM(100))(email_encoder)
 dense_1 = Dense(128, activation="relu")(l_lstm_sent)
@@ -121,6 +119,5 @@ model.compile(loss='categorical_crossentropy',
               optimizer='rmsprop',
               metrics=['acc'])
 
-print("model fitting Hierachical LSTM")
 model.fit(x_train, y_train, validation_data=(x_val, y_val),
           epochs=40, batch_size=30)

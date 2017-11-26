@@ -24,13 +24,10 @@ from keras import backend as K
 from keras.engine.topology import Layer, InputSpec
 from keras.callbacks import Callback
 
-#from keras import initializations
-#from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
-
-MAX_SENT_LENGTH = 100
-MAX_SENTS = 30
-EMBEDDING_DIM = 100
-VALIDATION_SPLIT = 0.2
+max_sen_len = 100
+max_sents = 30
+emb_dim = 100
+val_split = 0.2
 
 lines = []
 labels = []
@@ -90,14 +87,14 @@ style_vectors = style_vectors / style_vectors.max(axis=0)
 #Tokenization
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(texts)
-data = np.zeros((len(texts), MAX_SENTS, MAX_SENT_LENGTH), dtype='int32')
+data = np.zeros((len(texts), max_sents, max_sen_len), dtype='int32')
 for i, sentences in enumerate(lines):
     for j, sent in enumerate(sentences):
-        if j< MAX_SENTS:
+        if j< max_sents:
             wordTokens = text_to_word_sequence(sent)
             k = 0
             for _, word in enumerate(wordTokens):
-                if k < MAX_SENT_LENGTH:
+                if k < max_sen_len:
                     data[i, j, k] = tokenizer.word_index[word]
                     k = k + 1                    
 word_index = tokenizer.word_index
@@ -111,7 +108,7 @@ labels = labels[indices]
 style_vectors = style_vectors[indices]
 
 # Split the data as training  and validation
-nb_validation_samples = int(VALIDATION_SPLIT * data.shape[0])
+nb_validation_samples = int(val_split * data.shape[0])
 x_train = data[:-nb_validation_samples]
 y_train = labels[:-nb_validation_samples]
 x_val = data[-nb_validation_samples:]
@@ -139,7 +136,7 @@ with open('glove.6B.100d.txt') as f:
         coefs = np.asarray(values[1:], dtype='float32')
         embeddings_index[word] = coefs
 
-embedding_matrix = np.random.random((len(word_index) + 1, EMBEDDING_DIM))
+embedding_matrix = np.random.random((len(word_index) + 1, emb_dim))
 for word, i in word_index.items():
     embedding_vector = embeddings_index.get(word)
     if embedding_vector is not None:
@@ -148,19 +145,19 @@ for word, i in word_index.items():
         
 # Embedding layer
 embedding_layer = Embedding(len(word_index) + 1,
-                            EMBEDDING_DIM,
+                            emb_dim,
                             weights=[embedding_matrix],
-                            input_length=MAX_SENT_LENGTH,
+                            input_length=max_sen_len,
                             trainable=True)
 
 # Bidirectional LSTM
-sentence_input = Input(shape=(MAX_SENT_LENGTH,), dtype='int32')
+sentence_input = Input(shape=(max_sen_len,), dtype='int32')
 embedded_sequences = embedding_layer(sentence_input)
 l_lstm = Bidirectional(LSTM(100))(embedded_sequences)
 
 # Bidirectional LSTM
 sentEncoder = Model(sentence_input, l_lstm)
-email_input = Input(shape=(MAX_SENTS,MAX_SENT_LENGTH), dtype='int32')
+email_input = Input(shape=(max_sents,max_sen_len), dtype='int32')
 email_encoder = TimeDistributed(sentEncoder)(email_input)
 l_lstm_sent = Bidirectional(LSTM(100))(email_encoder)
 
@@ -189,5 +186,4 @@ model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=['ac
 model.summary()
 
 # Fit the model
-print("Model fitting Hierachical LSTM")
 model.fit(x=[x_train, style_train], y=y_train, validation_data=([x_val, style_val], y_val), epochs=30, batch_size=50)
