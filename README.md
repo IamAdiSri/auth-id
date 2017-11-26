@@ -22,10 +22,10 @@ SMAI@IIIT-H (Monsoon 2017)
     - [Data Preparation](https://github.com/IamAdiSri/smai-proj#data-preparation)
         - [Cleaning](https://github.com/IamAdiSri/smai-proj#cleaning)
     - [Models](https://github.com/IamAdiSri/smai-proj#models)
-        - [CNN implementation](https://github.com/IamAdiSri/smai-proj#cnn-implementation)
-        - [Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#bi-lstm-implementation)
-        - [Hierarchical Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#hierarchical-bi-lstm-implementation)
-        - [Augmented Hierarchical Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#augmented-hierarchical-bi-lstm-implementation)
+        1. [CNN implementation](https://github.com/IamAdiSri/smai-proj#cnn-implementation)
+        2. [Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#bi-lstm-implementation)
+        3. [Hierarchical Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#hierarchical-bi-lstm-implementation)
+        4. [Augmented Hierarchical Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#augmented-hierarchical-bi-lstm-implementation)
             - [Stylometry](https://github.com/IamAdiSri/smai-proj#stylometry)
 - [Dependencies](https://github.com/IamAdiSri/smai-proj#dependencies)
 - [Project Structure](https://github.com/IamAdiSri/smai-proj#project-structure)
@@ -61,7 +61,7 @@ The data is also tokenised by word, sentence and paragraph, and is case normalis
 
 The following different models have been implemented and tested:
 
-#### **CNN** implementation
+#### CNN implementation
 
 The CNN can identify commonly used groups of words and phrases by an author. Also, the CNN captures localized chunks of information which is useful for finding phrasal units within long texts.
 There are **three** layers to the CNN 
@@ -69,7 +69,7 @@ There are **three** layers to the CNN
 - Second, the **conv layer** performs the convolution operation using **128 5x5** filter
 - Third, the **dense layer** is used for classification
 
-#### **Bi-LSTM** implementation
+#### Bi-LSTM implementation
 
 The Bi-LSTM is a commonly used technique for text classification.
 
@@ -80,7 +80,7 @@ There are **three** layers to the model
 - Second, the **bidirectional LSTM** generates email embeddings from the sequence of word embeddings
 - Third, the **dense layer** is performs the classification
 
-#### **Hierarchical Bi-LSTM** implementation
+#### Hierarchical Bi-LSTM implementation
 
 LSTMs are known to work best for a sequence of length of 10-15 elements. However, in this implementation the model can take the entire document, increasing the length and hence the overall context for classification.
 
@@ -90,7 +90,7 @@ There are **four** layers to this model
 - Third **second bidirectional LSTM** generates email embeddings from sentence embeddings
 - Fourth, the **dense layer** is performs the classification
 
-#### **Augmented Hierarchical Bi-LSTM** implementation
+#### Augmented Hierarchical Bi-LSTM implementation
 
 This model appends **stylometric features** to the final document embedding in the hierarchical Bi-LSTM, right before it is passed on to the dense layer. The classification is now performed these augmented documenting-embeddings.
 
