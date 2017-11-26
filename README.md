@@ -49,7 +49,7 @@ This number was found to be **10** authors with **800-1000** emails each.
 
 The Enron corpus contains all emails in raw form, including not only the message but also all the email metadata.
 
-The data is cleaned to keep only the **subject** and **body** of the mails. All attached *forward chains* are removed.
+The data is cleaned to keep only the **subject** and **body** of the mails. All attached *forward chains* are removed, including forwarded threads, and *salutations*.
 
 The data is also tokenised by word, sentence and paragraph, and is case normalised.
 
@@ -59,28 +59,36 @@ The following different models have been implemented and tested:
 
 1. **CNN** implementation
 
-    The CNN can identify commonly used groups of words and phrases by an author. Also, the CNN captures locallized chunks of information which is useful for finding phrasal units within long texts.
-    There are **three** layers to the CNN - first, the **embedding layer** generates a sequence of word-embeddings from a sequence of words; second, the **conv layer** performs the convolution operation using **128 5x5** filter; third, the **dense layer** is used for classification.
+    The CNN can identify commonly used groups of words and phrases by an author. Also, the CNN captures localized chunks of information which is useful for finding phrasal units within long texts.
+    There are **three** layers to the CNN 
+    - First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
+    - Second, the **conv layer** performs the convolution operation using **128 5x5** filter
+    - Third, the **dense layer** is used for classification
 
-2. **Bi-LSTM** imlementation
+2. **Bi-LSTM** implementation
 
     The Bi-LSTM is a commonly used technique for text classification.
 
     LSTMs are a special kind of RNN which are more capable of remembering long term dependencies in a sequence. This gives more context to the classifier which helps in author identification while processing a sequence of text.
 
-    There are **three** layers to the model - first, the **embedding layer** generates a sequence of word-embeddings from a sequence of words; second, the **bidirectional LSTM** generates email embeddings from the sequence of word embeddings; third, the **dense layer** is performs the classification.
+    There are **three** layers to the model 
+    - First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
+    - Second, the **bidirectional LSTM** generates email embeddings from the sequence of word embeddings
+    - Third, the **dense layer** is performs the classification
 
 3. **Hierarchical Bi-LSTM** implementation
 
     LSTMs are known to work best for a sequence of length of 10-15 elements. However, in this implementation the model can take the entire document, increasing the length and hence the overall context for classification.
 
-    There are **four** layers to this model - first, the **embedding layer** generates a sequence of word-embeddings from a sequence of words; second, the **first bidirectional LSTM** generates sentence embeddings from the sequence of word embeddings; third **second bidirectional LSTM** generates email embeddings from sentence embeddings; fourth, the **dense layer** is performs the classification.
+    There are **four** layers to this model 
+    - First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
+    - Second, the **first bidirectional LSTM** generates sentence embeddings from the sequence of word embeddings
+    - Third **second bidirectional LSTM** generates email embeddings from sentence embeddings
+    - Fourth, the **dense layer** is performs the classification
 
 4. **Augmented Hierarchical Bi-LSTM** implementation
 
-    This model appends **stylometric features** to the final document embedding in the hierarchical Bi-LSTM, right before it is passed on to the dense layer.
-
-    The classification is now performed these augmented documenting-embeddings.
+    This model appends **stylometric features** to the final document embedding in the hierarchical Bi-LSTM, right before it is passed on to the dense layer. The classification is now performed these augmented documenting-embeddings.
 
     The stylometric features extracted from the data and experimented with are
     - Lexical
