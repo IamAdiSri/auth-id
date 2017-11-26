@@ -94,22 +94,11 @@ The data is also tokenised by word, sentence and paragraph, and is case normalis
 
         | models/
             - CNN.py
-            - GRU_final.py
+            - HierLSTM.py
+            - HierLSTM_withStylometry.py
+            - LSTM_final.py
 
         - README.md
-
-## Modules
-
-// Explain code here
-
-### Dataset
-### Data Cleaning and Preprocessing
-### Feature Extraction
-### Data Modeling
-
-## Results, Observations and Analyses
-
-// Explain results and accuracies here
 
 ## References
 https://arxiv.org/pdf/1609.06686.pdf
