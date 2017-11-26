@@ -90,14 +90,14 @@ The following different models have been implemented and tested:
 
     This model appends **stylometric features** to the final document embedding in the hierarchical Bi-LSTM, right before it is passed on to the dense layer. The classification is now performed these augmented documenting-embeddings.
 
-    The stylometric features extracted from the data and experimented with are
-    - Lexical
+    The **stylometric features** extracted from the data and experimented with are
+    - **Lexical**
         1. Average sentence length
         2. Average word length
         3. total number of words
         4. Ratio of unique words to total number of words
         5. Total number of characters
-    - Syntactic
+    - **Syntactic**
         1. Total number of function words
         2. Total number of personal pronouns
         3. Total number of adjectives
@@ -141,13 +141,15 @@ The following different models have been implemented and tested:
 
         | models/
             - CNN.py
-            - HierLSTM.py
             - HierLSTM_withStylometry.py
+            - HierLSTM.py
             - LSTM_final.py
 
         - README.md
 
 ## References
-https://arxiv.org/pdf/1609.06686.pdf
+- [*CEAI: CCM-based email authorship identification model* - Serwat Nizamani, Nasrullah](https://www.sciencedirect.com/science/article/pii/S111086651300039X)
 
-http://www.aclweb.org/anthology/E17-2106
+- [*Writeprints: A stylometric approach to identity-level identification and similarity detection in cyberspace* - Ahmed Abbasi, Hsinchun Chen](https://dl.acm.org/citation.cfm?id=1344413)
+
+- [*Detection of Fraudulent Emails by Authorship Extraction* - A. Pandian, Mohamed Abdul Karim](http://research.ijcaonline.org/volume41/number7/pxc3877619.pdf)
