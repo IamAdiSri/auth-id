@@ -18,13 +18,17 @@ SMAI@IIIT-H (Monsoon 2017)
 ## Table of Contents
 - [Overview](https://github.com/IamAdiSri/smai-proj#overview)
 - [Method](https://github.com/IamAdiSri/smai-proj#method)
+    - [Enron Email Dataset](https://github.com/IamAdiSri/smai-proj#enron-email-dataset)
+    - [Data Preparation](https://github.com/IamAdiSri/smai-proj#data-preparation)
+        - [Cleaning](https://github.com/IamAdiSri/smai-proj#cleaning)
+    - [Models](https://github.com/IamAdiSri/smai-proj#models)
+        - [CNN implementation](https://github.com/IamAdiSri/smai-proj#cnn-implementation)
+        - [Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#bi-lstm-implementation)
+        - [Hierarchical Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#hierarchical-bi-lstm-implementation)
+        - [Augmented Hierarchical Bi-LSTM implementation](https://github.com/IamAdiSri/smai-proj#augmented-hierarchical-bi-lstm-implementation)
+            - [Stylometry](https://github.com/IamAdiSri/smai-proj#stylometry)
 - [Dependencies](https://github.com/IamAdiSri/smai-proj#dependencies)
-- [Modules](https://github.com/IamAdiSri/smai-proj#modules)
-    - [Dataset](https://github.com/IamAdiSri/smai-proj#dataset)
-    - [Data Cleaning and Preprocessing](https://github.com/IamAdiSri/smai-proj#data-cleaning-and-preprocessing)
-    - [Feature Extraction](https://github.com/IamAdiSri/smai-proj#feature-extraction)
-    - [Data Modeling](https://github.com/IamAdiSri/smai-proj#data-modeling)
-- [Results, Observations and Analyses](https://github.com/IamAdiSri/smai-proj#results-observations-and-analyses)
+- [Project Structure](https://github.com/IamAdiSri/smai-proj#project-structure)
 - [References](https://github.com/IamAdiSri/smai-proj#references)
 
 ## Overview
@@ -57,50 +61,51 @@ The data is also tokenised by word, sentence and paragraph, and is case normalis
 
 The following different models have been implemented and tested:
 
-1. **CNN** implementation
+#### **CNN** implementation
 
-    The CNN can identify commonly used groups of words and phrases by an author. Also, the CNN captures localized chunks of information which is useful for finding phrasal units within long texts.
-    There are **three** layers to the CNN 
-    - First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
-    - Second, the **conv layer** performs the convolution operation using **128 5x5** filter
-    - Third, the **dense layer** is used for classification
+The CNN can identify commonly used groups of words and phrases by an author. Also, the CNN captures localized chunks of information which is useful for finding phrasal units within long texts.
+There are **three** layers to the CNN 
+- First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
+- Second, the **conv layer** performs the convolution operation using **128 5x5** filter
+- Third, the **dense layer** is used for classification
 
-2. **Bi-LSTM** implementation
+#### **Bi-LSTM** implementation
 
-    The Bi-LSTM is a commonly used technique for text classification.
+The Bi-LSTM is a commonly used technique for text classification.
 
-    LSTMs are a special kind of RNN which are more capable of remembering long term dependencies in a sequence. This gives more context to the classifier which helps in author identification while processing a sequence of text.
+LSTMs are a special kind of RNN which are more capable of remembering long term dependencies in a sequence. This gives more context to the classifier which helps in author identification while processing a sequence of text.
 
-    There are **three** layers to the model 
-    - First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
-    - Second, the **bidirectional LSTM** generates email embeddings from the sequence of word embeddings
-    - Third, the **dense layer** is performs the classification
+There are **three** layers to the model 
+- First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
+- Second, the **bidirectional LSTM** generates email embeddings from the sequence of word embeddings
+- Third, the **dense layer** is performs the classification
 
-3. **Hierarchical Bi-LSTM** implementation
+#### **Hierarchical Bi-LSTM** implementation
 
-    LSTMs are known to work best for a sequence of length of 10-15 elements. However, in this implementation the model can take the entire document, increasing the length and hence the overall context for classification.
+LSTMs are known to work best for a sequence of length of 10-15 elements. However, in this implementation the model can take the entire document, increasing the length and hence the overall context for classification.
 
-    There are **four** layers to this model 
-    - First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
-    - Second, the **first bidirectional LSTM** generates sentence embeddings from the sequence of word embeddings
-    - Third **second bidirectional LSTM** generates email embeddings from sentence embeddings
-    - Fourth, the **dense layer** is performs the classification
+There are **four** layers to this model 
+- First, the **embedding layer** generates a sequence of word-embeddings from a sequence of words
+- Second, the **first bidirectional LSTM** generates sentence embeddings from the sequence of word embeddings
+- Third **second bidirectional LSTM** generates email embeddings from sentence embeddings
+- Fourth, the **dense layer** is performs the classification
 
-4. **Augmented Hierarchical Bi-LSTM** implementation
+#### **Augmented Hierarchical Bi-LSTM** implementation
 
-    This model appends **stylometric features** to the final document embedding in the hierarchical Bi-LSTM, right before it is passed on to the dense layer. The classification is now performed these augmented documenting-embeddings.
+This model appends **stylometric features** to the final document embedding in the hierarchical Bi-LSTM, right before it is passed on to the dense layer. The classification is now performed these augmented documenting-embeddings.
 
-    The **stylometric features** extracted from the data and experimented with are
-    - **Lexical**
-        1. Average sentence length
-        2. Average word length
-        3. total number of words
-        4. Ratio of unique words to total number of words
-        5. Total number of characters
-    - **Syntactic**
-        1. Total number of function words
-        2. Total number of personal pronouns
-        3. Total number of adjectives
+##### Stylometry
+The **stylometric features** extracted from the data and experimented with are
+- **Lexical**
+    1. Average sentence length
+    2. Average word length
+    3. total number of words
+    4. Ratio of unique words to total number of words
+    5. Total number of characters
+- **Syntactic**
+    1. Total number of function words
+    2. Total number of personal pronouns
+    3. Total number of adjectives
 
 ## Dependencies
 1. [python2](https://python.org)
