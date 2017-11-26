@@ -1,6 +1,6 @@
 # E-Mail Author Identification
 
-SMAI@IIIT-H (2017)
+SMAI@IIIT-H (Monsoon 2017)
 
 ## Team 15
 
@@ -109,7 +109,7 @@ The following different models have been implemented and tested:
 4. [keras](https://keras.io)
 5. [tensorflow](https://tensorflow.org)
 6. [nltk](https://nltk.org)
-7. [MySQL](https://mysql.com) and [python-mysql](https://pypi.python.org/pypi/MySQL-python)
+7. [MySQL](https://mysql.com) and [mysqldb](https://pypi.python.org/pypi/MySQL-python)
 
 ## Project Structure
     root/
